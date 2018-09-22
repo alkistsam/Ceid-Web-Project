@@ -1,0 +1,62 @@
+.row-fluid {
+	max-width: 100%;
+}
+
+.googlemap {
+	padding: 0;
+
+}
+
+#map-canvas {
+	height: 500px;
+}
+
+.top-bar {
+	background: #0367A6;
+}
+
+.top-bar-section .has-form {
+	background: #0367A6;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #0367A6;	
+}
+
+.button {
+	background: #D95E32;
+}
+
+.side-nav {
+	padding: 0;
+}
+
+.side-nav li {
+	margin: 0;
+}
+
+.box {
+	height: 400px;
+	overflow: hidden;
+	overflow-y: scroll; 
+	padding: 16px;
+	margin: 8px 0;
+}
+.description {
+	color: rgba(0,0,0,0.54);
+	height: 100px;
+}
+.date-clock {
+	color: rgba(0,0,0,0.87);
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Medium screens and up */
+@media only screen and (min-width: 40.063em) { 
+
+	.has-form {
+		width: 400px;
+	}	
+
+}
